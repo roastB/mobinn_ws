@@ -92,7 +92,7 @@ def generate_html():
         os.makedirs('src')
     
     # HTML 파일 생성
-    with open('src/hello_index.html', 'w', encoding='utf-8') as f:
+    with open('src/250918_cicd_page.html', 'w', encoding='utf-8') as f:
         f.write(html_content)
     
     print("HTML 파일이 성공적으로 생성되었습니다!")
