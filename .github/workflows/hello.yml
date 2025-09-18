@@ -22,5 +22,12 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       
-      - name: Run Python script
+      - name: Run Python script and generate HTML
         run: python src/hello.py
+
+      - name: Deploy to Github pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./src
