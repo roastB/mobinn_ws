@@ -1,0 +1,139 @@
+[0.000000] (-) TimerEvent: {}
+[0.000158] (sandbox_node) JobQueued: {'identifier': 'sandbox_node', 'dependencies': OrderedDict()}
+[0.000230] (sandbox_node) JobStarted: {'identifier': 'sandbox_node'}
+[0.011446] (sandbox_node) JobProgress: {'identifier': 'sandbox_node', 'progress': 'cmake'}
+[0.012211] (sandbox_node) Command: {'cmd': ['/usr/bin/cmake', '/home/cho/mobinn_ws/sandbox_node', '-DCMAKE_INSTALL_PREFIX=/home/cho/mobinn_ws/install/sandbox_node'], 'cwd': '/home/cho/mobinn_ws/build/sandbox_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'cho'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cho'), ('OLDPWD', '/home/cho/mobinn_ws/sandbox_node'), ('DESKTOP_SESSION', 'ubuntu-wayland'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '2004'), ('SYSTEMD_EXEC_PID', '2185'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7670'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cho'), ('JOURNAL_STREAM', '8:502'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cho'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/cho/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/roastb-ubuntu:@/tmp/.ICE-unix/2147,unix/roastb-ubuntu:/tmp/.ICE-unix/2147'), ('INVOCATION_ID', '6c862d78df9346a392be5d33bc104c26'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-wayland'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CTBMD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:d2f69765-3425-4c2e-a37f-fdac945be45a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-wayland'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cho/mobinn_ws/build/sandbox_node'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-wayland:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.076623] (sandbox_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099911] (-) TimerEvent: {}
+[0.131016] (sandbox_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.136682] (sandbox_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200074] (-) TimerEvent: {}
+[0.205659] (sandbox_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.210583] (sandbox_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.211119] (sandbox_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.212088] (sandbox_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.217993] (sandbox_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.294310] (sandbox_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.297996] (sandbox_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.298066] (sandbox_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.298291] (sandbox_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.299692] (sandbox_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300158] (-) TimerEvent: {}
+[0.400417] (-) TimerEvent: {}
+[0.432354] (sandbox_node) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500441] (sandbox_node) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.500545] (-) TimerEvent: {}
+[0.526842] (sandbox_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.529061] (sandbox_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.533861] (sandbox_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.544029] (sandbox_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.552308] (sandbox_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.579680] (sandbox_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.581954] (sandbox_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600749] (-) TimerEvent: {}
+[0.661797] (sandbox_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.683289] (sandbox_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.701040] (-) TimerEvent: {}
+[0.707507] (sandbox_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.712082] (sandbox_node) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.782248] (sandbox_node) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.782430] (sandbox_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.801149] (-) TimerEvent: {}
+[0.850487] (sandbox_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.851114] (sandbox_node) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.901238] (-) TimerEvent: {}
+[0.933844] (sandbox_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.940623] (sandbox_node) StdoutLine: {'line': b'-- Generating done\n'}
+[0.942566] (sandbox_node) StdoutLine: {'line': b'-- Build files have been written to: /home/cho/mobinn_ws/build/sandbox_node\n'}
+[0.948550] (sandbox_node) CommandEnded: {'returncode': 0}
+[0.948837] (sandbox_node) JobProgress: {'identifier': 'sandbox_node', 'progress': 'build'}
+[0.948859] (sandbox_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cho/mobinn_ws/build/sandbox_node', '--', '-j28', '-l28'], 'cwd': '/home/cho/mobinn_ws/build/sandbox_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'cho'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cho'), ('OLDPWD', '/home/cho/mobinn_ws/sandbox_node'), ('DESKTOP_SESSION', 'ubuntu-wayland'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '2004'), ('SYSTEMD_EXEC_PID', '2185'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7670'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cho'), ('JOURNAL_STREAM', '8:502'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cho'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/cho/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/roastb-ubuntu:@/tmp/.ICE-unix/2147,unix/roastb-ubuntu:/tmp/.ICE-unix/2147'), ('INVOCATION_ID', '6c862d78df9346a392be5d33bc104c26'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-wayland'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CTBMD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:d2f69765-3425-4c2e-a37f-fdac945be45a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-wayland'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cho/mobinn_ws/build/sandbox_node'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-wayland:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.992406] (sandbox_node) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o\x1b[0m\n'}
+[0.992693] (sandbox_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o\x1b[0m\n'}
+[1.001526] (-) TimerEvent: {}
+[1.102141] (-) TimerEvent: {}
+[1.202509] (-) TimerEvent: {}
+[1.303006] (-) TimerEvent: {}
+[1.403776] (-) TimerEvent: {}
+[1.504122] (-) TimerEvent: {}
+[1.605103] (-) TimerEvent: {}
+[1.705845] (-) TimerEvent: {}
+[1.806404] (-) TimerEvent: {}
+[1.907330] (-) TimerEvent: {}
+[2.007541] (-) TimerEvent: {}
+[2.107841] (-) TimerEvent: {}
+[2.208189] (-) TimerEvent: {}
+[2.308842] (-) TimerEvent: {}
+[2.409050] (-) TimerEvent: {}
+[2.509505] (-) TimerEvent: {}
+[2.610096] (-) TimerEvent: {}
+[2.710575] (-) TimerEvent: {}
+[2.811415] (-) TimerEvent: {}
+[2.912072] (-) TimerEvent: {}
+[3.012536] (-) TimerEvent: {}
+[3.113256] (-) TimerEvent: {}
+[3.213560] (-) TimerEvent: {}
+[3.314122] (-) TimerEvent: {}
+[3.414856] (-) TimerEvent: {}
+[3.515134] (-) TimerEvent: {}
+[3.615693] (-) TimerEvent: {}
+[3.716426] (-) TimerEvent: {}
+[3.759413] (sandbox_node) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable pub\x1b[0m\n'}
+[3.816625] (-) TimerEvent: {}
+[3.909995] (sandbox_node) StdoutLine: {'line': b'[ 75%] Built target pub\n'}
+[3.917243] (-) TimerEvent: {}
+[4.017953] (-) TimerEvent: {}
+[4.118261] (-) TimerEvent: {}
+[4.218728] (-) TimerEvent: {}
+[4.319557] (-) TimerEvent: {}
+[4.419919] (-) TimerEvent: {}
+[4.520244] (-) TimerEvent: {}
+[4.620800] (-) TimerEvent: {}
+[4.720991] (-) TimerEvent: {}
+[4.821357] (-) TimerEvent: {}
+[4.921954] (-) TimerEvent: {}
+[5.022310] (-) TimerEvent: {}
+[5.123165] (-) TimerEvent: {}
+[5.223816] (-) TimerEvent: {}
+[5.324307] (-) TimerEvent: {}
+[5.425050] (-) TimerEvent: {}
+[5.525289] (-) TimerEvent: {}
+[5.625770] (-) TimerEvent: {}
+[5.726369] (-) TimerEvent: {}
+[5.826799] (-) TimerEvent: {}
+[5.927292] (-) TimerEvent: {}
+[6.027998] (-) TimerEvent: {}
+[6.128813] (-) TimerEvent: {}
+[6.229322] (-) TimerEvent: {}
+[6.310574] (sandbox_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sub\x1b[0m\n'}
+[6.329539] (-) TimerEvent: {}
+[6.430172] (-) TimerEvent: {}
+[6.530481] (-) TimerEvent: {}
+[6.579314] (sandbox_node) StdoutLine: {'line': b'[100%] Built target sub\n'}
+[6.590487] (sandbox_node) CommandEnded: {'returncode': 0}
+[6.590853] (sandbox_node) JobProgress: {'identifier': 'sandbox_node', 'progress': 'install'}
+[6.595675] (sandbox_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cho/mobinn_ws/build/sandbox_node'], 'cwd': '/home/cho/mobinn_ws/build/sandbox_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'cho'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cho'), ('OLDPWD', '/home/cho/mobinn_ws/sandbox_node'), ('DESKTOP_SESSION', 'ubuntu-wayland'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '2004'), ('SYSTEMD_EXEC_PID', '2185'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7670'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cho'), ('JOURNAL_STREAM', '8:502'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cho'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/cho/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/roastb-ubuntu:@/tmp/.ICE-unix/2147,unix/roastb-ubuntu:/tmp/.ICE-unix/2147'), ('INVOCATION_ID', '6c862d78df9346a392be5d33bc104c26'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-wayland'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CTBMD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:d2f69765-3425-4c2e-a37f-fdac945be45a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-wayland'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cho/mobinn_ws/build/sandbox_node'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-wayland:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.608283] (sandbox_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.608555] (sandbox_node) StdoutLine: {'line': b'-- Installing: /home/cho/mobinn_ws/install/sandbox_node/lib/sandbox_node/pub\n'}
+[6.609306] (sandbox_node) StdoutLine: {'line': b'-- Set runtime path of "/home/cho/mobinn_ws/install/sandbox_node/lib/sandbox_node/pub" to ""\n'}
+[6.609412] (sandbox_node) StdoutLine: {'line': b'-- Installing: /home/cho/mobinn_ws/install/sandbox_node/lib/sandbox_node/sub\n'}
+[6.611274] (sandbox_node) StdoutLine: {'line': b'-- Set runtime path of "/home/cho/mobinn_ws/install/sandbox_node/lib/sandbox_node/sub" to ""\n'}
+[6.611347] (sandbox_node) StdoutLine: {'line': b'-- Installing: /home/cho/mobinn_ws/install/sandbox_node/share/ament_index/resource_index/package_run_dependencies/sandbox_node\n'}
+[6.611410] (sandbox_node) StdoutLine: {'line': b'-- Installing: /home/cho/mobinn_ws/install/sandbox_node/share/ament_index/resource_index/parent_prefix_path/sandbox_node\n'}
+[6.611468] (sandbox_node) StdoutLine: {'line': b'-- Installing: /home/cho/mobinn_ws/install/sandbox_node/share/sandbox_node/environment/ament_prefix_path.sh\n'}
+[6.611502] (sandbox_node) StdoutLine: {'line': b'-- Installing: /home/cho/mobinn_ws/install/sandbox_node/share/sandbox_node/environment/ament_prefix_path.dsv\n'}
+[6.611552] (sandbox_node) StdoutLine: {'line': b'-- Installing: /home/cho/mobinn_ws/install/sandbox_node/share/sandbox_node/environment/path.sh\n'}
+[6.611607] (sandbox_node) StdoutLine: {'line': b'-- Installing: /home/cho/mobinn_ws/install/sandbox_node/share/sandbox_node/environment/path.dsv\n'}
+[6.611640] (sandbox_node) StdoutLine: {'line': b'-- Installing: /home/cho/mobinn_ws/install/sandbox_node/share/sandbox_node/local_setup.bash\n'}
+[6.611687] (sandbox_node) StdoutLine: {'line': b'-- Installing: /home/cho/mobinn_ws/install/sandbox_node/share/sandbox_node/local_setup.sh\n'}
+[6.611788] (sandbox_node) StdoutLine: {'line': b'-- Installing: /home/cho/mobinn_ws/install/sandbox_node/share/sandbox_node/local_setup.zsh\n'}
+[6.611883] (sandbox_node) StdoutLine: {'line': b'-- Installing: /home/cho/mobinn_ws/install/sandbox_node/share/sandbox_node/local_setup.dsv\n'}
+[6.611974] (sandbox_node) StdoutLine: {'line': b'-- Installing: /home/cho/mobinn_ws/install/sandbox_node/share/sandbox_node/package.dsv\n'}
+[6.612094] (sandbox_node) StdoutLine: {'line': b'-- Installing: /home/cho/mobinn_ws/install/sandbox_node/share/ament_index/resource_index/packages/sandbox_node\n'}
+[6.612205] (sandbox_node) StdoutLine: {'line': b'-- Installing: /home/cho/mobinn_ws/install/sandbox_node/share/sandbox_node/cmake/sandbox_nodeConfig.cmake\n'}
+[6.612275] (sandbox_node) StdoutLine: {'line': b'-- Installing: /home/cho/mobinn_ws/install/sandbox_node/share/sandbox_node/cmake/sandbox_nodeConfig-version.cmake\n'}
+[6.612363] (sandbox_node) StdoutLine: {'line': b'-- Installing: /home/cho/mobinn_ws/install/sandbox_node/share/sandbox_node/package.xml\n'}
+[6.614081] (sandbox_node) CommandEnded: {'returncode': 0}
+[6.631673] (-) TimerEvent: {}
+[6.633107] (sandbox_node) JobEnded: {'identifier': 'sandbox_node', 'rc': 0}
+[6.633313] (-) EventReactorShutdown: {}

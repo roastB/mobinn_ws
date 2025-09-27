@@ -1,0 +1,4 @@
+source;share/sandbox_node/local_setup.bash
+source;share/sandbox_node/local_setup.dsv
+source;share/sandbox_node/local_setup.sh
+source;share/sandbox_node/local_setup.zsh
